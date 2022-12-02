@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import LandingPage from './Components/LandingPage/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <h1>petuk's catering</h1>
+      <LandingPage></LandingPage>
     </div>
   );
 }
