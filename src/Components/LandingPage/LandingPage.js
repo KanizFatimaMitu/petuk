@@ -10,7 +10,6 @@ import Navbar from '../Shared/Navbar';
 const LandingPage = () => {
     return (
         <div>
-            <Navbar></Navbar>
             <Introduction></Introduction>
             <Category></Category>
             <ChefCard></ChefCard>
