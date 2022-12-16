@@ -1,3 +1,5 @@
+import { faArrowAltCircleRight, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const Delivery = () => {
@@ -18,8 +20,11 @@ const Delivery = () => {
                             </ul>
 
                         </div>
-                        <div className='flex justify-center'>
-                            <button class="btn btn-primary">Get Started</button>
+                        <div className='flex item-center my-4 justify-center'>
+                            <button class="btn btn-primary">
+                                <span className='mr-2'>start process</span>
+                                <FontAwesomeIcon icon={faArrowAltCircleRight} />
+                            </button>
                         </div>
                     </div>
 

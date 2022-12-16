@@ -9,6 +9,11 @@ import About from './Components/Pages/About/About';
 
 
 function App() {
+  
+  <script>
+    AOS.init();
+  </script>
+
   return (
     <div>
       <Navbar></Navbar>
